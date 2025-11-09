@@ -9,11 +9,11 @@ Maven 3.6+
 ## Команды 
 1) Скачиваем проект:  
 ```
-git clone git@github.com:ganeshgoa/API-SECURITY-ANALYZER.git
+git clone git@github.com:ganeshgoa/vtb_hack_api_last.git
 ```
 2) Заходим в папку проекта:  
 ```
-cd API-SECURITY-ANALYZER  
+cd vtb_hack_api_last
 ```
 3) Делаем компиляцию  
 ```
@@ -38,8 +38,8 @@ java -jar app/target/app-1.0.0-jar-with-dependencies.jar --spec .\openapi_s.json
 java -jar app/target/app-1.0.0-jar-with-dependencies.jar --spec ./openapi_s.json --conf ./config.json # Linux
 ```
 6) Смотрим результаты в  
-   `API-SECURITY-ANALYZER/reports/security-analysis.html` - отчёт в HTML  
-   `API-SECURITY-ANALYZER/reports/security-analysis.json` - отчёт в JSON
+   `vtb_hack_api_last/reports/security-analysis.html` - отчёт в HTML  
+   `vtb_hack_api_last/reports/security-analysis.json` - отчёт в JSON
 
 ## Конфигурационный файл (JSON)
 ```
@@ -85,7 +85,7 @@ CI/CD: GitHub Actions
 # 2. Архитектура проекта
 Проект состоит из 7 модулей + CI/CD конфигурация: 
 ```
-api-security-analyzer/  
+vtb_hack_api_last/  
 ├── pom.xml  
 ├── .github/workflows/ci-cd.yml  
 ├── input/  
